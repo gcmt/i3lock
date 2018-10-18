@@ -101,7 +101,7 @@ xcb_pixmap_t draw_image(uint32_t *resolution) {
 
     const char *psw_placeholder = "Type password to unlock…";
 
-    const double psw_dots_radius = 5;
+    const double psw_dots_radius = 4;
     const double psw_dots_spacing = 8;
 
     double psw_height = psw_dots_radius * 5;
